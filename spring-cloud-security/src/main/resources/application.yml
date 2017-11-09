@@ -1,0 +1,23 @@
+security:
+   oauth2:
+    client:
+       clientId: robby.bryant@groupm.com
+       clientSecret: Pa$$w0rd
+       accessTokenUri: https://login.microsoftonline.com/insidemedia.onmicrosoft.com/oauth2/authorize/oauth/access_token
+       userAuthorizationUri: https://login.microsoftonline.com/insidemedia.onmicrosoft.com/oauth2/authorize
+       clientAuthenticationScheme: form
+    resource:
+       userInfoUri: https://login.microsoftonline.com/
+     
+    logging:
+        level:
+          org.springframework.security: DEBUG
+        preferTokenInfo: false
+       
+        
+      
+      
+      
+    
+    
+  
